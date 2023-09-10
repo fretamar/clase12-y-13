@@ -1,0 +1,24 @@
+/*IDs y Clases Donde estamos*/
+
+.donde-estamos {
+    display: inline-flex;
+}
+
+.tarjeta-donde-estamos {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: $color2;
+    color:  $white;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#mapa-cdu {
+    width: 98vw;
+    height: 400px;
+    margin-left: 4px;
+    border-radius: 5px;
+}

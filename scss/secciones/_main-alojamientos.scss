@@ -1,0 +1,48 @@
+/*IDs y Clases Alojamientos*/
+
+.alojamientos-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trj-alojamientos {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+
+.alojamientos {
+    background-color: $color2;
+    color:  $white;
+    width: 22vw;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.txt-alojamientos {
+    width: 60%;
+    float: left;
+    margin-bottom: 0.1em;
+    font-size: 18px;
+}
+
+.txt-direccionaloj {
+    font-size: 10px;
+    float: left;
+}
+
+.img-alojamientos {
+    height: 80%;
+    float: right;
+}
+
+.mapa-alojamientos {
+    width: 500px;
+    height: 350px;
+    margin: 7px;
+    border-radius: 5px;
+}

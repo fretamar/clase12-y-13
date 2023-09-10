@@ -1,0 +1,141 @@
+/*Grid Multimedia*/
+
+.grid-area {
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-areas:
+        "uno uno uno"
+        "cuatro dos tres"
+        "cuatro cinco seis"
+        "siete ocho nueve"
+        "catorce catorce catorce"
+        "diez doce trece"
+        "once once once"
+    ;
+    grid-template-rows: repeat(7, 300px);
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.grid-area div {
+    background-color: $color2;
+    border: 1px solid $color2;
+    margin: 2px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.cinco {
+    grid-area: cinco;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.ocho {
+    grid-area: ocho;
+}
+
+.nueve {
+    grid-area: nueve;
+}
+
+.diez {
+    grid-area: diez;
+}
+
+.once {
+    grid-area: once;
+}
+
+.doce {
+    grid-area: doce;
+}
+
+.trece {
+    grid-area: trece;
+}
+
+.catorce {
+    grid-area: catorce;
+}
+
+.uno:hover {
+    transform: scale(1.05);
+}
+
+.dos:hover {
+    transform: scale(1.05);
+}
+
+.tres:hover {
+    transform: scale(1.05);
+}
+
+.cuatro:hover {
+    transform: scale(1.05);
+}
+
+.cinco:hover {
+    transform: scale(1.05);
+}
+
+.seis:hover {
+    transform: scale(1.05);
+}
+
+.siete:hover {
+    transform: scale(1.05);
+}
+
+.ocho:hover {
+    transform: scale(1.05);
+}
+
+.nueve:hover {
+    transform: scale(1.05);
+}
+
+.diez:hover {
+    transform: scale(1.05);
+}
+
+.once:hover {
+    transform: scale(1.05);
+}
+
+.doce:hover {
+    transform: scale(1.05);
+}
+
+.trece:hover {
+    transform: scale(1.05);
+}
+
+.catorce:hover {
+    transform: scale(1.05);
+}
+

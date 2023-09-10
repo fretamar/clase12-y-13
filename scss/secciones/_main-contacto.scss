@@ -1,0 +1,26 @@
+/*IDs y Clases Contacto*/
+
+.contacto-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#formulario {
+    color:  $white;
+}
+
+.imagen-form {
+    width: 40%;
+    height: auto;  
+    margin-bottom: 5px;
+}
+
+.boton-enviar-form{
+    margin-bottom: 5px;
+}
+
+.enviar:hover {
+    background-color: $color2;
+    color:  $white;
+}

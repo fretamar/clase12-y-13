@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Concepción del Uruguay - Contacto</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="../index.html"><img class="w-50" src="../recursos/logo.png"
+                        alt="Logo concepción del Uruguay"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="justify-content-evenly collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./donde-estamos.html">Donde estamos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./actividades.html">Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./alojamientos.html">Alojamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./multimedia.html">Multimedia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="titulo">Contactanos</h1>
+
+        <!--FORMULARIO-->
+        <!-- method dentro de form get>>publico post>>privado, no se guardan los datos porque es sensible-->
+        <section class="contacto-flex">
+            <section id="formulario">
+                <form action="?" method="get">
+                    <label>Nombre completo</label>
+                    <br>
+                    <input type="text" placeholder="nombre completo" name="identidad">
+                    <br><br>
+                    <label>Email (*)</label>
+                    <br>
+                    <input type="email" placeholder="email" required>
+                    <br><br>
+                    <label>Telefono</label>
+                    <br>
+                    <input type="number" placeholder="caracteristica" size="10">
+                    <input type="number" placeholder="telefono" size="30">
+                    <br><br>
+                    <label>Tu mensaje</label>
+                    <br>
+                    <input type="text" placeholder="escribe tu mensaje (maximo 400 caracteres)" maxlength="400"
+                        size="45">
+                    <br><br>
+                    <label>¿Primera vez que nos visitas?</label>
+                    <br>
+                    <label>Sí</label>
+                    <input type="radio" name="primera-visita" value="si" />
+                    <br>
+                    <label>No</label>
+                    <input type="radio" name="primera-visita" value="no" />
+                    <br><br>
+                    <input class="boton-enviar-form" type="submit" class="enviar">
+                </form>
+            </section>
+                <img src="../recursos/imagen-aerea-cdu.webp" alt="Concepción del Uruguay vista aerea" class="imagen-form">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-txt">Concepción del Uruguay - Entre Ríos - Argentina</p>
+        <p class="footer-txt">Esta página no es oficial ni responde a una entidad gubernamental.</p>
+        <p class="footer-txt">®Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
