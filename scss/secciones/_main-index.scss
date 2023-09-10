@@ -19,9 +19,33 @@
     margin-left: 10px;
 }
 
+@-webkit-keyframes slide-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-400px);
+              transform: translateZ(-400px);
+    }
+  }
+  @keyframes slide-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-400px);
+              transform: translateZ(-400px);
+    }
+  }
+  
+
 .miniatura1 {
     width: 231px;
     height: 120px;
+	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     transform: rotateZ(10deg);
     transition: all .3seg;
 }
@@ -29,6 +53,8 @@
 .miniatura2 {
     width: 231px;
     height: 120px;
+	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     transform: translate(0px, 20px);
     transition: all .3seg;
 }
@@ -36,8 +62,10 @@
 .miniatura3 {
     width: 231px;
     height: 120px;
-    transform: rotateZ(-10deg);
+    -webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     transition: all .3seg;
+    transform: rotateZ(-10deg);
 }
 
 .miniatura1:hover{
