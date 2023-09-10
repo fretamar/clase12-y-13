@@ -46,8 +46,8 @@
     height: 120px;
 	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    transform: rotateZ(10deg);
-    transition: all .3seg;
+    /*transform: rotateZ(10deg);*/
+    /*transition: all .3seg;*/
 }
 
 .miniatura2 {
@@ -55,8 +55,8 @@
     height: 120px;
 	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    transform: translate(0px, 20px);
-    transition: all .3seg;
+    /*transform: translate(0px, 20px);*/
+    /*transition: all .3seg;*/
 }
 
 .miniatura3 {
@@ -64,8 +64,8 @@
     height: 120px;
     -webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    transition: all .3seg;
-    transform: rotateZ(-10deg);
+   /*transition: all .3seg;*/
+    /*transform: rotateZ(-10deg);*/
 }
 
 .miniatura1:hover{
