@@ -9,7 +9,7 @@
     width: auto;
     height: auto;
     background-color: $color2;
-    color:  $white;
+    color: $white;
     margin-left: 100px;
     margin-bottom: 20px;
     align-items: center;
@@ -21,4 +21,18 @@
     height: 400px;
     margin-left: 4px;
     border-radius: 5px;
+}
+
+@media (max-width:920px) {
+
+    .titulo {
+        text-align: center;
+    }
+
+    .donde-estamos {
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+
 }

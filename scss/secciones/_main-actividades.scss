@@ -8,7 +8,7 @@
 
 .actividad {
     background-color: $color2;
-    color:  $white;
+    color: $white;
     width: 500px;
     height: 100px;
     display: inline-block;
@@ -26,4 +26,16 @@
 .img-actividad {
     height: 80%;
     float: right;
+}
+
+@media (max-width:920px) {
+
+    .titulo {
+        text-align: center;
+    }
+
+    .actividad {
+        width: 100%;
+        height: 100px;
+    }
 }

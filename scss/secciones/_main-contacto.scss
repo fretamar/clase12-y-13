@@ -7,20 +7,37 @@
 }
 
 #formulario {
-    color:  $white;
+    color: $white;
 }
 
 .imagen-form {
     width: 40%;
-    height: auto;  
+    height: auto;
     margin-bottom: 5px;
 }
 
-.boton-enviar-form{
+.boton-enviar-form {
     margin-bottom: 5px;
 }
 
 .enviar:hover {
     background-color: $color2;
-    color:  $white;
+    color: $white;
+}
+
+@media (max-width:920px) {
+
+    .titulo {
+        text-align: center;
+    }
+
+    .imagen-form {
+        width: 70%;
+        height: auto;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .contacto-flex {
+        margin-left: 20px;
+    }
 }

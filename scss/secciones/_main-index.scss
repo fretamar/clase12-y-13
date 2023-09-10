@@ -18,3 +18,46 @@
     width: 231px;
     height: 120px;
 }
+
+@media (max-width:920px){
+
+    .titulo{
+        text-align: center;
+    }
+
+    #historia {
+        display: block;
+    }
+    
+    .texto{
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+        font-size: large;
+    }
+
+    .imagenes-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portada {
+        width: 80%;
+        height: 80%;
+        margin-left: 0px;
+    }
+    
+    .conjunto-miniatura {      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .miniatura {
+        margin-bottom: 3px;
+        margin-left: 0px;
+    }
+}
