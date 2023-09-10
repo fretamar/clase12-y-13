@@ -8,35 +8,73 @@
     width: 700px;
     height: 400px;
     margin-left: 10px;
+    transition: all .3seg;
+}
+
+.portada:hover{
+    transform: scale(1.1);
 }
 
 .conjunto-miniatura {
     margin-left: 10px;
 }
 
-.miniatura {
+.miniatura1 {
     width: 231px;
     height: 120px;
+    transform: rotateZ(10deg);
+    transition: all .3seg;
 }
 
-@media (max-width:920px){
+.miniatura2 {
+    width: 231px;
+    height: 120px;
+    transform: translate(0px, 20px);
+    transition: all .3seg;
+}
 
-    .titulo{
+.miniatura3 {
+    width: 231px;
+    height: 120px;
+    transform: rotateZ(-10deg);
+    transition: all .3seg;
+}
+
+.miniatura1:hover{
+    transform: scale(1.1);
+}
+
+.miniatura2:hover{
+    transform: scale(1.1);
+}
+
+.miniatura3:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:920px) {
+
+    .titulo {
         text-align: center;
     }
 
     #historia {
         display: block;
     }
-    
-    .texto{
-        width: 90%;
-        text-align: center;
-        margin-left: 15px;
-        font-size: large;
+
+    main {
+        section {
+            .texto {
+                width: 80%;
+                text-align: center;
+                align-items: center;
+                margin-left: 35px;
+                font-size: large;
+            }
+        }
     }
 
-    .imagenes-index{
+    .imagenes-index {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,17 +85,34 @@
         width: 80%;
         height: 80%;
         margin-left: 0px;
+        transform: scale(1);
     }
-    
-    .conjunto-miniatura {      
+
+    .conjunto-miniatura {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
-    .miniatura {
+
+    .miniatura1 {
         margin-bottom: 3px;
         margin-left: 0px;
+        transform: translate(0px, 0px);
+        transform: scale(1);
+    }
+
+    .miniatura2 {
+        margin-bottom: 3px;
+        margin-left: 0px;
+        transform: translate(0px, 0px);
+        transform: scale(1);
+    }
+
+    .miniatura3 {
+        margin-bottom: 3px;
+        margin-left: 0px;
+        transform: translate(0px, 0px);
+        transform: scale(1);
     }
 }
