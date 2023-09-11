@@ -428,7 +428,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; }
+  appearance: button; }
   button:not(:disabled),
   [type="button"]:not(:disabled),
   [type="reset"]:not(:disabled),
@@ -474,7 +474,7 @@ legend {
   height: auto; }
 
 [type="search"] {
-  -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px; }
 
 /* rtl:raw:
@@ -493,7 +493,7 @@ legend {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button; }
+  appearance: button; }
 
 output {
   display: inline-block; }
@@ -9529,7 +9529,13 @@ textarea.form-control-lg {
   margin: 2px;
   display: grid;
   grid-template-columns: repeat(3, 500px);
-  grid-template-areas: "uno uno uno" "cuatro dos tres" "cuatro cinco seis" "siete ocho nueve" "catorce catorce catorce" "diez doce trece" "once once once";
+  grid-template-areas: "uno uno uno"
+ "cuatro dos tres"
+ "cuatro cinco seis"
+ "siete ocho nueve"
+ "catorce catorce catorce"
+ "diez doce trece"
+ "once once once";
   grid-template-rows: repeat(7, 300px);
   align-content: center;
   justify-content: center;

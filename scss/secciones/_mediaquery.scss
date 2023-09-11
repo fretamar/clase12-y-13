@@ -1,0 +1,92 @@
+@media (max-width:920px){
+
+    .titulo{
+        text-align: center;
+    }
+
+    #historia {
+        display: block;
+    }
+    
+    .texto{
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+        font-size: large;
+    }
+
+    .imagenes-index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portada {
+        width: 80%;
+        height: 80%;
+        margin-left: 0px;
+    }
+    
+    .conjunto-miniatura {      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .miniatura {
+        margin-bottom: 3px;
+        margin-left: 0px;
+    }
+
+    .imagen-form{
+        width: 70%;
+        height: auto;
+        margin: 5px 0px 5px 0px;
+    }  
+    
+    .contacto-flex{
+        margin-left: 20px;
+    }
+
+    .alojamientos-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .trj-alojamientos{
+        align-items: center;
+    }
+
+    .alojamientos{
+        width: 300px;
+        height: 120px;
+    }
+
+    .img-alojamientos{
+        width: 30%;
+        height: auto;
+    }
+    
+    .mapa-alojamientos{
+        width: 100%;
+        height: 400px;
+    }
+
+    .actividad{
+        width: 100%;
+        height: 100px;
+    }
+
+    .donde-estamos {
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    }
+
+    .footer-txt{
+        font-size: 14px;
+    }
+}
